@@ -1,0 +1,31 @@
+class MGParticleFallingRocks extends MGParticleFX;
+
+defaultproperties
+{
+    ParticlesPerSec=(Base=1,Rand=0)
+    SourceWidth=(Base=64)
+    SourceHeight=(Base=0)
+    SourceDepth=(Base=64)
+    AngularSpreadWidth=(Base=180)
+    AngularSpreadHeight=(Base=0)
+    bSteadyState=True
+    Speed=(Base=0,Rand=4)
+    Lifetime=(Base=8)
+    ColorStart=(Base=(R=148,G=196,B=96))
+    SizeWidth=(Rand=24)
+    SizeLength=(Rand=24)
+    SpinRate=(Base=2,Rand=-4)
+    AlphaDelay=2
+    SizeGrowPeriod=0.05
+    Chaos=1
+    Elasticity=0.5
+    GravityModifier=0.9
+    Textures(0)=Texture'HPParticle.hp_fx.Particles.rockpiece'
+    Style=STY_Masked
+    bUnlit=False
+    MinTimeBtwEmit=2
+    MaxTimeBtwEmit=12
+    MinEmitPeriod=0.05
+    MaxEmitPeriod=0.5
+    InitialState=RandomEmission
+}

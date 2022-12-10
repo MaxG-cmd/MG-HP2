@@ -1,0 +1,34 @@
+class MGParticleConfetti extends MGParticleFX;
+
+defaultproperties
+{
+    ParticlesPerSec=(Base=256)
+    SourceWidth=(Base=2)
+    SourceHeight=(Base=2)
+    SourceDepth=(Base=2)
+    AngularSpreadWidth=(Base=180)
+    AngularSpreadHeight=(Base=180)
+    bSteadyState=True
+    Speed=(Base=2)
+    Lifetime=(Base=10,Rand=1)
+    ColorStart=(Base=(G=255,B=255))
+    ColorEnd=(Base=(G=255,B=255))
+    SizeWidth=(Base=2,Rand=2)
+    SizeLength=(Base=2,Rand=2)
+    SizeEndScale=(Base=0)
+    SpinRate=(Base=4,Rand=-8)
+    AlphaDelay=5
+    SizeDelay=5
+    AlphaGrowPeriod=0.1
+    SizeGrowPeriod=0.1
+    Chaos=6
+    ChaosDelay=0
+    Elasticity=0.1
+    GravityModifier=0.06
+    ParticlesMax=128
+    Textures(0)=Texture'HPParticle.hp_fx.Particles.Dot_1'
+    Textures(1)=Texture'HPParticle.hp_fx.Particles.Dot_2'
+    Textures(2)=Texture'HPParticle.hp_fx.Particles.Sparkle_5'
+    Textures(3)=Texture'HPParticle.hp_fx.Particles.Sparkle_4'
+    Textures(4)=Texture'HPParticle.hp_fx.Particles.Sparkle_2'
+}

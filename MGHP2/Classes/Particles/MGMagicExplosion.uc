@@ -1,0 +1,29 @@
+class MGMagicExplosion extends MGParticleFX;
+
+defaultproperties
+{
+    ParticlesPerSec=(Base=4096)
+    SourceWidth=(Base=8)
+    SourceHeight=(Base=8)
+    SourceDepth=(Base=8)
+    AngularSpreadWidth=(Base=60)
+    AngularSpreadHeight=(Base=45)
+    bSteadyState=True
+    Speed=(Base=128,Rand=512)
+    Lifetime=(Base=3)
+    ColorStart=(Base=(R=106,G=151,B=255),Rand=(R=41,G=68,B=137))
+    ColorEnd=(Base=(R=128,G=128,B=128),Rand=(R=128,G=128,B=128))
+    AlphaEnd=(Base=1)
+    SizeWidth=(Base=16)
+    SizeLength=(Base=16)
+    SizeEndScale=(Base=0)
+    SpinRate=(Base=-16,Rand=32)
+    SizeDelay=2.5
+    Chaos=2
+    Elasticity=0.5
+    GravityModifier=1
+    ParticlesMax=32
+    Textures(0)=Texture'HPParticle.hp_fx.Particles.swirl001'
+    Textures(1)=FireTexture'HPParticle.hp_fx.Spells.TemplateSparkle02'
+    Textures(2)=Texture'HPParticle.hp_fx.Spells.LesCloud_01'
+}

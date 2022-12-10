@@ -1,0 +1,35 @@
+class MGParticleBaseballFire extends MGParticleFX;
+
+defaultproperties
+{
+    DefaultLightBrightness=215
+    SourceWidth=(Base=4)
+    SourceHeight=(Base=4)
+    SourceDepth=(Base=4)
+    bSteadyState=True
+    Speed=(Base=32)
+    Lifetime=(Base=2)
+    ColorStart=(Base=(R=91,G=255,B=120))
+    ColorEnd=(Base=(R=0,G=225,B=130))
+    AlphaEnd=(Base=0.5)
+    SizeWidth=(Base=32,Rand=16)
+    SizeLength=(Base=32,Rand=16)
+    SizeEndScale=(Base=0)
+    SpinRate=(Base=8,Rand=-16)
+    SizeDelay=0.2
+    AlphaGrowPeriod=0.1
+    Chaos=2
+    Attraction=(X=1,Y=1)
+    Textures(0)=Texture'HPParticle.particle_fx.noisy1_pfx'
+    Textures(1)=Texture'HPParticle.particle_fx.noisy6_pfx'
+    Textures(2)=Texture'HPParticle.particle_fx.noisy5_pfx'
+    Textures(3)=Texture'HPParticle.particle_fx.noisy7_pfx'
+    Rotation=(Pitch=16384)
+    LightType=LT_Steady
+    LightEffect=LE_WateryShimmer
+    LightBrightness=215
+    LightHue=111
+    LightSaturation=65
+    LightRadius=5
+    LightRadiusInner=50
+}

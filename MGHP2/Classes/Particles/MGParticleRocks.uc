@@ -1,0 +1,29 @@
+class MGParticleRocks extends MGParticleFX;
+
+defaultproperties
+{
+    ParticlesPerSec=(Base=1000)
+    SourceWidth=(Base=16)
+    SourceHeight=(Base=16)
+    SourceDepth=(Base=16)
+    AngularSpreadWidth=(Base=180)
+    AngularSpreadHeight=(Base=30)
+    bSteadyState=True
+    Speed=(Base=800,Rand=-300)
+    Lifetime=(Base=3)
+    ColorStart=(Base=(R=182,G=200,B=211))
+    ColorEnd=(Base=(R=100,G=126,B=155))
+    AlphaEnd=(Base=1)
+    SizeWidth=(Rand=20)
+    SizeLength=(Rand=20)
+    SizeEndScale=(Base=0)
+    SpinRate=(Base=32,Rand=-64)
+    SizeDelay=1.5
+    SizeGrowPeriod=0.1
+    Chaos=0.1
+    Elasticity=0.25
+    GravityModifier=1
+    ParticlesMax=12
+    Textures(0)=Texture'HPParticle.hp_fx.Particles.rockpiece'
+    Style=STY_Masked
+}

@@ -1,0 +1,31 @@
+class MGParticleChand extends MGParticleFX;
+
+defaultproperties
+{
+    MinTimeBtwEmit=0
+    MaxTimeBtwEmit=0.5
+    MinEmitPeriod=0.2
+    MaxEmitPeriod=1
+    ParticlesPerSec=(Base=1)
+    SourceWidth=(Base=1)
+    SourceHeight=(Base=1)
+    SourceDepth=(Base=1)
+    AngularSpreadWidth=(Base=180)
+    AngularSpreadHeight=(Base=180)
+    bSteadyState=True
+    Speed=(Base=0,Rand=4)
+    Lifetime=(Base=2)
+    ColorStart=(Base=(G=255,B=255))
+    ColorEnd=(Base=(G=249,B=249))
+    AlphaEnd=(Base=1)
+    SizeWidth=(Base=16,Rand=12)
+    SizeLength=(Base=16,Rand=12)
+    SizeEndScale=(Base=0)
+    SpinRate=(Base=1,Rand=-2)
+    AlphaGrowPeriod=0.2
+    Chaos=1
+    Damping=288
+    GravityModifier=-1
+    Textures(0)=Texture'MGTech.flares.flare7'
+    InitialState=RandomEmission
+}
